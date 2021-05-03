@@ -617,6 +617,11 @@
 	<td>//h4[contains(text(), '${key_entryName}')]</td>
 	<td></td>
 </tr>
+<tr>
+    <td>SPECIFIC_MENU_ITEM</td>
+    <td>//a[contains(text(),'${key_itemName}')]//..//..//*[name()='svg'][contains(@class,'lexicon-icon lexicon-icon-ellipsis-v')]</td>
+    <td></td>
+</tr>
 </tbody>
 </table>
 </body>
