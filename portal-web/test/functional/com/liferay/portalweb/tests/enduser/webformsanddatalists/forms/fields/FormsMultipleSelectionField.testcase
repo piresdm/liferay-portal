@@ -103,7 +103,6 @@ definition {
 			category = "Content &amp; Data",
 			portlet = "Forms");
 
-
 		FormsAdminNavigator.gotoAddForm();
 
 		Form.editName(formName = "Form1");
@@ -129,11 +128,10 @@ definition {
 		FormFields.enableCheckbox(fieldName = "Option");
 
 		FormPortlet.submitSuccessfully();
-		
+
 		FormPortlet.viewSuccessPage(
 			successPageDescription = "Your information was successfully received. Thank you for filling out the form.",
 			successPageTitle = "Thank you.");
-
 	}
 
 	@description = "Verify that a Multiple Selection Field can be set to repeatable"
