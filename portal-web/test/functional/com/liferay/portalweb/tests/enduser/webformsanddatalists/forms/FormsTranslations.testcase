@@ -29,7 +29,6 @@ definition {
 
 			Page.tearDownCP();
 		}
-
 	}
 
 	@description = "Verify that a translation can be added"
@@ -85,7 +84,6 @@ definition {
 		ProductMenu.gotoPortlet(
 			category = "Content &amp; Data",
 			portlet = "Forms");
-
 
 		FormsAdminNavigator.gotoAddForm();
 
