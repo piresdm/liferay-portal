@@ -1135,15 +1135,15 @@ definition {
 
 	macro viewTransltaionNotDuplicated {
 		AssertElementPresent(
-			key_position = "${key_position1}",
 			key_language = "${key_language1}",
+			key_position = "${key_position1}",
 			locator1 = "FormFields#TRANSLATION_LIST");
-		
+
 		AssertElementNotPresent(
-			key_position = "${key_position2}",
 			key_language = "${key_language2}",
+			key_position = "${key_position2}",
 			locator1 = "FormFields#TRANSLATION_LIST");
-	}		
+	}
 
 	macro viewUploadField {
 		FormFields.viewUploadLabel(

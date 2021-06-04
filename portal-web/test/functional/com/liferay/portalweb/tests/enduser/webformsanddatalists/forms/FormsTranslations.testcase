@@ -62,7 +62,7 @@ definition {
 		ProductMenu.gotoPortlet(
 			category = "Content &amp; Data",
 			portlet = "Forms");
-		
+
 		FormsAdminNavigator.gotoAddForm();
 
 		Form.editName(formName = "Form1");
@@ -86,11 +86,10 @@ definition {
 		Form.addTranslation(localizedLanguage = "Spanish (Spain)");
 
 		FormFields.viewTransltaionNotDuplicated(
-			key_position1 = "2",
 			key_language1 = "Spanish (Spain)",
-			key_position2 = "3",
-			key_language2 = "Spanish (Spain)");
-
+			key_language2 = "Spanish (Spain)",
+			key_position1 = "2",
+			key_position2 = "3");
 	}
 
 	@description = "Verify that a translation can be deactivated"
