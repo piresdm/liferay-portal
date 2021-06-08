@@ -67,7 +67,7 @@ definition {
 			fieldType = "Numeric");
 
 		Form.save();
-		
+
 		FormsAdminNavigator.gotoBack();
 
 		Navigator.gotoNavItem(navItem = "Forms");
@@ -87,7 +87,6 @@ definition {
 		Form.save();
 
 		Alert.viewSuccessMessage();
-
 	}
 
 	@description = "Verify that a Form can be submitted after adding a Fieldset"
