@@ -392,7 +392,6 @@ definition {
 		property forms.functional = "true";
 		property portal.acceptance = "false";
 
-
 		ProductMenu.gotoPortlet(
 			category = "Content &amp; Data",
 			portlet = "Forms");
@@ -412,13 +411,13 @@ definition {
 			fieldType = "Multiple Selection");
 
 		FormFields.addSingleSelectionOption(
-		optionName = "Option 1",
-		optionValue = "1");
-		
+			optionName = "Option 1",
+			optionValue = "1");
+
 		FormFields.addSingleSelectionOption(
 			optionName = "Option 2",
 			optionValue = "2");
-	
+
 		FormFields.viewOptionsPositionNotHorizontal(
 			key_text1 = "Option 1",
 			key_text2 = "Option 2");
