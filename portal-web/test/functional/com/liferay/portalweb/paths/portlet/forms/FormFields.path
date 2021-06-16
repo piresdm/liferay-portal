@@ -843,7 +843,7 @@
 	<td>//input[contains(@value,'${key_valueOption}')]//..//..//..//..//button[contains(@class,'close')]</td>
 	<td></td>
 </tr>
-<!--SIDE_BAR-->
+<!--SIDEBAR-->
 <tr>
 	<td>SIDEBAR_ADVANCED_PREDEFINED_SELECT_FROM_LIST_DROPDOWN_CONTENT</td>
 	<td>//div[contains(@data-field-name,'predefinedValue')]//div[contains(@class,'form-builder-select-field')]//div[contains(text(),'${key_textContent}')]</td>
@@ -854,6 +854,12 @@
 	<td>//input[contains(@name,'tip')]</td>
 	<td></td>
 </tr>
+<tr>
+	<td>SIDEBAR_BASIC_PLACEHOLDER</td>
+	<td>//input[contains(@name,'placeholder')]</td>
+	<td></td>
+</tr>
+
 </tbody>
 </table>
 </body>
