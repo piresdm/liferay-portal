@@ -874,6 +874,13 @@
 	<td>//input[contains(@name,'tip')]</td>
 	<td></td>
 </tr>
+<tr>
+	<td>SIDEBAR_BASIC_PLACEHOLDER</td>
+	<td>//input[contains(@name,'placeholder')]</td>
+	<td></td>
+</tr>
+
+
 </tbody>
 </table>
 </body>
